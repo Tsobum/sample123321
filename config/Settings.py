@@ -11,7 +11,7 @@ class Settings:
     #Production
     host=os.environ['Host']
     database=os.environ['DATABASE']
-    user=os.environ['User']
+    user=os.environ['Username']
     password=os.environ['Password']
 
     #DEV2TESTLOCAL

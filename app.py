@@ -16,4 +16,4 @@ def getUser(userid):
         return {},500
 
 if __name__ == '__main__':
-    app.run(port=8081,debug=True) 
+    app.run(debug=True) 

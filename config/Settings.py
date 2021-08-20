@@ -9,10 +9,10 @@ class Settings:
     #password='ij8nhoj7vno27h15'
 
     #Production
-    host=os.environ['HOST']
+    host=os.environ['Host']
     database=os.environ['DATABASE']
-    user=os.environ['USER']
-    password=os.environ['PASSWORD']
+    user=os.environ['User']
+    password=os.environ['Password']
 
     #DEV2TESTLOCAL
     #host='localhost'

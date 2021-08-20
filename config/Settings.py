@@ -10,7 +10,7 @@ class Settings:
 
     #Production
     host=os.environ['Host']
-    database=os.environ['DATABASE']
+    database='f00hizbmcwoco2jn'
     user=os.environ['Username']
     password=os.environ['Password']
 

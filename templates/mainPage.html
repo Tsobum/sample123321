@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>  
+    
+    <p>{{message}} {{name|upper}} !</p>
+</head>
+<body>
+    
+      <table border= 1 style='font-size: 20px;'>
+
+            {% for item in arrofobj%}
+            <tr>
+                <td>{{item.index}}</td>
+                <td>{{item.data}}</td>
+            </tr>
+            {%  endfor %}
+        
+            
+        </table>
+
+</body>
+
+
+</html>

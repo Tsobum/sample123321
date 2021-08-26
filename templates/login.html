@@ -1,0 +1,55 @@
+<html>
+
+<head>
+  <style>
+
+    button {
+    color:white;  
+    background-color:rgb(20, 114, 207);
+    width: 200;
+    height: 40;
+    }
+
+    .form-box {
+     font-family: Arial, Helvetica, sans-serif ;
+     position: fixed;
+     top: 30%;
+     left: 40%;
+     width: 400px;
+     height: 200px;
+     color:black;
+     background-color: rgb(241, 241, 241);
+     text-align: center;
+     margin: 20px;
+     padding: 20px 20px;
+     box-shadow: 3px 3px #757575;
+    }
+
+  </style>
+
+</head>
+<body>
+    <form action="http://127.0.0.1:5000/verifyUser" method="post">
+   
+        <div class="form-box">
+          <p>Log In</p>
+          <label for="uname"><b>Email</b></label>
+          <input type="text" placeholder="Enter Email" name="email" required><br><br>
+      
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="password" required><br><br>
+      
+          <button type="submit">Log In</button>
+          <p>{{message}}{{name}}</p>
+
+ 
+        </div>
+
+      </form>
+
+      
+
+</body>
+
+
+</html>
